@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Filterable Image Gallery |</title> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="bag"> Bag</span>
+        <span class="item" data-name="shoe">Shoe</span>
+        <span class="item" data-name="watch">Watch</span>
+        <span class="item" data-name="camera">Camera</span>
+        <span class="item" data-name="headphone">Headphone</span>
+    </div>
+    </nav>
+    <!-- filter image-->
+    <div class="gallery">
+    <div class="image" data-name="bag"><span><img src="bag1.jpeg" alt=""></span></div>
+    <div class="image" data-name="watch"><span><img src="watch2.jpeg" alt=""></span></div>
+    <div class="image" data-name="shoe"><span><img src="shoe5.jpeg" alt=""></span></div>    
+    <div class="image" data-name="headphone"><span><img src="hp1.jpeg" alt=""></span></div>
+    <div class="image" data-name="bag"><span><img src="bag2.jpeg" alt=""></span></div>
+    <div class="image" data-name="headphone"><span><img src="hp3.jpeg" alt=""></span></div>
+    <div class="image" data-name="shoe"><span><img src="shoe4.jpeg" alt=""></span></div>
+    <div class="image" data-name="camera"><span><img src="cam1.jpeg" alt=""></span></div>
+    <div class="image" data-name="headphone"><span><img src="hp2.jpeg" alt=""></span></div>
+    <div class="image" data-name="camera"><span><img src="cam3.jpeg" alt=""></span></div>
+    <div class="image" data-name="bag"><span><img src="bag4.jpeg" alt=""></span></div>
+    <div class="image" data-name="camera"><span><img src="cam5.jpeg" alt=""></span></div>
+    <div class="image" data-name="watch"><span><img src="watch4.jpeg" alt=""></span></div>
+    <div class="image" data-name="bag"><span><img src="bag5.jpeg" alt=""></span></div>
+    <div class="image" data-name="shoe"><span><img src="shoe1.jpeg" alt=""></span></div>
+    <div class="image" data-name="camera"><span><img src="cam2.jpeg" alt=""></span></div>
+    <div class="image" data-name="headphone"><span><img src="hp5.jpeg" alt=""></span></div>
+    <div class="image" data-name="watch"><span><img src="watch1.jpeg" alt=""></span></div>
+    <div class="image" data-name="shoe"><span><img src="shoe2.jpeg" alt=""></span></div>
+    <div class="image" data-name="bag"><span><img src="bag3.jpeg" alt=""></span></div>
+    <div class="image" data-name="watch"><span><img src="watch3.jpeg" alt=""></span></div>
+    <div class="image" data-name="camera"><span><img src="cam4.jpeg" alt=""></span></div>
+    <div class="image" data-name="headphone"><span><img src="hp4.jpeg" alt=""></span></div>
+    <div class="image" data-name="watch"><span><img src="watch5.jpeg" alt=""></span></div>
+    <div class="image" data-name="shoe"><span><img src="shoe3.jpeg" alt=""></span></div>
+    
+     </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="bag1.jpeg" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
